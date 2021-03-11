@@ -1,0 +1,98 @@
+:root{
+    --preto:#141414
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;  
+}
+
+/*elementos base*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--preto);
+    color: white;
+}
+
+header .container{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.descricao{
+    width: 60%;
+}
+
+.logo{
+    font-size: 30px;
+    Color: #c0c0c0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff ;
+}
+
+/*capa*/
+.capa-site{
+    font-size: 16px;
+    background: url('/imagens/Rihanna-capa.jpg');
+    height:500px;
+    background-size: cover;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.capa-site .descricao{
+    margin-bottom: 50px;
+}
+
+.titulo{
+    font-size: 30px;
+    margin-bottom:20px;
+}
+
+.botao{
+    background-color: rgba(102, 233, 15, 0.836);
+    border:groove rgb(85, 122, 83);
+    color:white;
+    padding:10px 20px;
+    font: size 60px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    transition: .3 ease all;    
+}
+
+.botao:hover{
+    background-color: rgb(111, 243, 122);
+    color:black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+
+.box-faixas{
+    height:250px;
+    width: 50px;    
+    display:block;
+}
+
+.thanks{
+    padding:50px;
+}
